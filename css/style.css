@@ -13,31 +13,57 @@ margin:0 auto;
 
 
 
+
 #cont{
-     background:#F1F1F1;
-     height:30px;
-     margin:0;
-     padding:50;
-     position:relative;
-     
-     
-     
-     display:;
-    }#cont img{
-     width:100px;
-     height:100px;
-     border-radius:50%;
-     border:4px solid #E2E2E2;
-     display:flex;
-     justify-content:center;
-     margin:auto; 
-    }#info{
+  background:#F1F1F1;
+  background:grey;
+  height:;
+  margin:0;
+  padding:;
+  position:relative;
+  display:;
+  bacground-image:url(img/1667120054830.jpg);
+  }#cont #sec-img{
+  width:140px;
+  height:140px;
+  border-radius:50%;
+  border:4px solid #E2E2E2;
+  display:;
+  margin:;
+  position:absolute;
+  top:80;
+  left:10;
+  }#cont #main-img{
+   width:100%;
+   border-bottom:5px solid #E2E2E2;
+  }#cont #ranks{
+   position:absolute;
+   right:10;
+   bottom:10;
+  }#cont #ranks a{
+    text-decoration:none;
+  }#cont #ranks a button{
+   margin-top:10px;
+   background:none;
+   height:40px;
+   width:40px;
+   border-radius:25px;
+   border:2px solid white;
+   outline:none;
+  }#cont #ranks a button svg{
+   font-size:20px;
+  }
+
+
+
+
+#info{
      background:#FEFEFE;     
      padding:20;
      text-align:center;
      max-width:1000px;
      margin:0 auto;
-     
+     margin-top:50px;
      
      display:;
     }#info h2{
@@ -59,14 +85,17 @@ margin:0 auto;
     
 
 
-#cont2{    
+#cont2{ 
+     width:100%;
+     max-width:350px;
+     margin:0 auto;
      background:#FEFEFE;     
-     padding:10;
+     padding:;
      text-align:center;
      display:flex;
-     justify-content:space-around;
-     
+     justify-content:space-around;     
      display:;
+     margin-bottom:20px;
     }#cont2head{
      font-weight:lighter;
      text-align:center;
@@ -141,12 +170,12 @@ margin:0 auto;
      max-width:600px;
      margin:0 auto;
     }#price #p-cont{
-     /*width:100%;*/
-     max-width:300px;
+     width:100%;
+     max-width:280px;
      margin:0 auto;
      text-align:center;
      border:px solid black;
-     border-radius:5px;
+     border-radius:20px;
      box-shadow:0px 0px 5px gray;
     }#price #p-cont h2{
       color:#3D4857;
